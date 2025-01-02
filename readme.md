@@ -1,6 +1,6 @@
 # Streaming Gambar dengan Kafka
 
-Proyek ini bertujuan untuk memproduksi dan mengonsumsi data gambar dalam bentuk base64 melalui Kafka. Dataset yang digunakan adalah dataset penyakit tanaman yang terdiri dari 14 jenis tanaman dengan 68 kelas penyakit tanaman. Dataset berada di direktori `train`.
+Proyek ini bertujuan untuk memproduksi dan mengonsumsi data gambar dalam bentuk base64 melalui Kafka. Dataset yang digunakan adalah dataset penyakit tanaman yang terdiri dari 14 jenis tanaman dengan 68 kelas penyakit tanaman. Dataset berada di direktori `train`. Dataset lengkap dapat dilihat pada [Link](https://www.kaggle.com/datasets/tanukii/plantgeniusdataset).
 
 ## Fitur Utama
 1. **Producer**
@@ -68,7 +68,7 @@ python monitor_consumed_images.py
 - **Group ID (Consumer)**: `image-consumer-group`
 
 ## Prasyarat
-1. Python 3.x
+1. Python >3.10
 2. Perpustakaan Python:
    - confluent_kafka
    - matplotlib
