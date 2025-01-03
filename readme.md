@@ -53,13 +53,10 @@ python consumer.py
 ### 3. Monitoring Dataset Lokal
 Untuk memonitor dataset lokal dan menganalisisnya:
 ```bash
-python monitor_dataset.py
-```
+jupyter lab --ip 0.0.0.0
+Monitoring.ipynb``
 
-### 4. Konsumsi dan Monitoring Kafka
-Untuk memonitor data yang diterima dari Kafka:
-```bash
-python monitor_consumed_images.py
+
 ```
 
 ## Konfigurasi Kafka
